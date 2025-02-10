@@ -6,7 +6,25 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+@font-face {
+  font-family: "Misteri Caps";
+  src: url("/fonts/Misteri Caps.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ameda";
+  src: url("/fonts/Ameda-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Abhaya Libre";
+  src: url("/fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
